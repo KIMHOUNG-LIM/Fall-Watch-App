@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "1074295281685",
+    "project_id": "falldetectionwebsite",
+    "storage_bucket": "falldetectionwebsite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074295281685:android:1b685186e439928616961c",
+        "android_client_info": {
+          "package_name": "com.example.fall_detection_app_user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCdUFK712Dn2zHYlggcKGQkgDeHPO9ZGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074295281685:android:4c04ce922099927216961c",
+        "android_client_info": {
+          "package_name": "com.example.fall_detection_web_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCdUFK712Dn2zHYlggcKGQkgDeHPO9ZGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074295281685:android:62e601a092fa8b6616961c",
+        "android_client_info": {
+          "package_name": "com.example.fall_watch_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCdUFK712Dn2zHYlggcKGQkgDeHPO9ZGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074295281685:android:a6bf631fc6dcda4a16961c",
+        "android_client_info": {
+          "package_name": "com.example.firebase_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCdUFK712Dn2zHYlggcKGQkgDeHPO9ZGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074295281685:android:5c6913dccf0498b116961c",
+        "android_client_info": {
+          "package_name": "com.example.firebase_flutter_user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCdUFK712Dn2zHYlggcKGQkgDeHPO9ZGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
