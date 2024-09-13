@@ -53,10 +53,5 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBCdUFK712Dn2zHYlggcKGQkgDeHPO9ZGE',
-    appId: '1:1074295281685:android:62e601a092fa8b6616961c',
-    messagingSenderId: '1074295281685',
-    projectId: 'falldetectionwebsite',
-    storageBucket: 'falldetectionwebsite.appspot.com',
-  );
+    ......
 }
