@@ -1,0 +1,353 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fall_watch_app"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:2:5-76
+11-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:2:22-74
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->[:flutter_local_notifications] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-66
+12-->[:flutter_local_notifications] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-63
+13    <uses-permission android:name="android.permission.CALL_PHONE" />
+13-->[:flutter_phone_direct_caller] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-69
+13-->[:flutter_phone_direct_caller] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-66
+14
+15    <uses-feature
+15-->[:flutter_phone_direct_caller] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-13:36
+16        android:name="android.hardware.telephony"
+16-->[:flutter_phone_direct_caller] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-50
+17        android:required="false" />
+17-->[:flutter_phone_direct_caller] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-33
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
+19-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:25:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+20-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:26:22-76
+21    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+21-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Acer\.gradle\caches\transforms-3\006b56759435096dead1a4e173298196\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+21-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Acer\.gradle\caches\transforms-3\006b56759435096dead1a4e173298196\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+22
+23    <permission
+23-->[androidx.core:core:1.10.1] C:\Users\Acer\.gradle\caches\transforms-3\6bc18fd54880998c206a6f4d36d8aeab\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+24        android:name="com.example.fall_watch_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.10.1] C:\Users\Acer\.gradle\caches\transforms-3\6bc18fd54880998c206a6f4d36d8aeab\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.10.1] C:\Users\Acer\.gradle\caches\transforms-3\6bc18fd54880998c206a6f4d36d8aeab\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.example.fall_watch_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.10.1] C:\Users\Acer\.gradle\caches\transforms-3\6bc18fd54880998c206a6f4d36d8aeab\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.10.1] C:\Users\Acer\.gradle\caches\transforms-3\6bc18fd54880998c206a6f4d36d8aeab\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+28
+29    <application
+30        android:name="io.flutter.app.FlutterMultiDexApplication"
+30-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:6:9-42
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.10.1] C:\Users\Acer\.gradle\caches\transforms-3\6bc18fd54880998c206a6f4d36d8aeab\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:7:9-43
+33        android:label="Carevue" >
+33-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:5:9-32
+34        <receiver
+34-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:9:9-131
+35            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+35-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:9:44-128
+36            android:exported="false" />
+36-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:9:19-43
+37        <receiver
+37-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:10:9-17:20
+38            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+38-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:10:44-132
+39            android:exported="false" >
+39-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:10:19-43
+40            <intent-filter>
+40-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:11:13-16:29
+41                <action android:name="android.intent.action.BOOT_COMPLETED" />
+41-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:12:17-78
+41-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:12:25-76
+42                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+42-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:13:17-83
+42-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:13:25-81
+43                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+43-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:14:17-82
+43-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:14:25-79
+44                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+44-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:15:17-81
+44-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:15:25-79
+45            </intent-filter>
+46        </receiver>
+47
+48        <activity
+48-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:19:9-40:20
+49            android:name="com.example.fall_watch_app.MainActivity"
+49-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:20:13-41
+50            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+50-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:25:13-163
+51            android:enableOnBackInvokedCallback="true"
+51-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:21:13-55
+52            android:exported="true"
+52-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:22:13-36
+53            android:hardwareAccelerated="true"
+53-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:26:13-47
+54            android:launchMode="singleTop"
+54-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:23:13-43
+55            android:theme="@style/LaunchTheme"
+55-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:24:13-47
+56            android:windowSoftInputMode="adjustResize" >
+56-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:27:13-55
+57
+58            <!--
+59                 Specifies an Android theme to apply to this Activity as soon as
+60                 the Android process has started. This theme is visible to the user
+61                 while the Flutter UI initializes. After that, this theme continues
+62                 to determine the Window background behind the Flutter UI.
+63            -->
+64            <meta-data
+64-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:32:13-35:17
+65                android:name="io.flutter.embedding.android.NormalTheme"
+65-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:33:15-70
+66                android:resource="@style/NormalTheme" />
+66-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:34:15-52
+67
+68            <intent-filter>
+68-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:36:13-39:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:37:17-68
+69-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:37:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:38:17-76
+71-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:38:27-74
+72            </intent-filter>
+73        </activity>
+74        <!--
+75             Don't delete the meta-data below.
+76             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+77        -->
+78        <meta-data
+78-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:43:9-45:33
+79            android:name="flutterEmbedding"
+79-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:44:13-44
+80            android:value="2" />
+80-->C:\Users\Acer\Downloads\Internship2\fall_watch_app\android\app\src\main\AndroidManifest.xml:45:13-30
+81
+82        <service
+82-->[:firebase_auth] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+83            android:name="com.google.firebase.components.ComponentDiscoveryService"
+83-->[:firebase_auth] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+84            android:directBootAware="true"
+84-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Acer\.gradle\caches\transforms-3\23b67a7ebb2330ceaa75435511dbee1d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+85            android:exported="false" >
+85-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:68:13-37
+86            <meta-data
+86-->[:firebase_auth] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+87                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+87-->[:firebase_auth] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[:firebase_auth] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+89            <meta-data
+89-->[:firebase_storage] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+90                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+90-->[:firebase_storage] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-126
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[:firebase_storage] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+92            <meta-data
+92-->[:cloud_firestore] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+93                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+93-->[:cloud_firestore] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[:cloud_firestore] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+95            <meta-data
+95-->[:firebase_core] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+96                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+96-->[:firebase_core] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[:firebase_core] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+99                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+99-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-firestore:24.10.3] C:\Users\Acer\.gradle\caches\transforms-3\891e2acb3702150feaf96785196bc89b\transformed\jetified-firebase-firestore-24.10.3\AndroidManifest.xml:17:13-19:85
+102                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+102-->[com.google.firebase:firebase-firestore:24.10.3] C:\Users\Acer\.gradle\caches\transforms-3\891e2acb3702150feaf96785196bc89b\transformed\jetified-firebase-firestore-24.10.3\AndroidManifest.xml:18:17-122
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-firestore:24.10.3] C:\Users\Acer\.gradle\caches\transforms-3\891e2acb3702150feaf96785196bc89b\transformed\jetified-firebase-firestore-24.10.3\AndroidManifest.xml:19:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-firestore:24.10.3] C:\Users\Acer\.gradle\caches\transforms-3\891e2acb3702150feaf96785196bc89b\transformed\jetified-firebase-firestore-24.10.3\AndroidManifest.xml:20:13-22:85
+105                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+105-->[com.google.firebase:firebase-firestore:24.10.3] C:\Users\Acer\.gradle\caches\transforms-3\891e2acb3702150feaf96785196bc89b\transformed\jetified-firebase-firestore-24.10.3\AndroidManifest.xml:21:17-111
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-firestore:24.10.3] C:\Users\Acer\.gradle\caches\transforms-3\891e2acb3702150feaf96785196bc89b\transformed\jetified-firebase-firestore-24.10.3\AndroidManifest.xml:22:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Acer\.gradle\caches\transforms-3\40fd2888197634a6c85289a29f102e69\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+108                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+108-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Acer\.gradle\caches\transforms-3\40fd2888197634a6c85289a29f102e69\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Acer\.gradle\caches\transforms-3\40fd2888197634a6c85289a29f102e69\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Acer\.gradle\caches\transforms-3\40fd2888197634a6c85289a29f102e69\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+111                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+111-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Acer\.gradle\caches\transforms-3\40fd2888197634a6c85289a29f102e69\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Acer\.gradle\caches\transforms-3\40fd2888197634a6c85289a29f102e69\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\Acer\.gradle\caches\transforms-3\d30bc20809fb656f1700a14172bbecbe\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:25:13-27:85
+114                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+114-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\Acer\.gradle\caches\transforms-3\d30bc20809fb656f1700a14172bbecbe\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:26:17-120
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\Acer\.gradle\caches\transforms-3\d30bc20809fb656f1700a14172bbecbe\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:27:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\Acer\.gradle\caches\transforms-3\d30bc20809fb656f1700a14172bbecbe\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:28:13-30:85
+117                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+117-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\Acer\.gradle\caches\transforms-3\d30bc20809fb656f1700a14172bbecbe\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:29:17-117
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\Acer\.gradle\caches\transforms-3\d30bc20809fb656f1700a14172bbecbe\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:30:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Acer\.gradle\caches\transforms-3\f4d76cbce42abcd22e3ded45e9b68ed0\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+120                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+120-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Acer\.gradle\caches\transforms-3\f4d76cbce42abcd22e3ded45e9b68ed0\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Acer\.gradle\caches\transforms-3\f4d76cbce42abcd22e3ded45e9b68ed0\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Acer\.gradle\caches\transforms-3\23b67a7ebb2330ceaa75435511dbee1d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+123                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+123-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Acer\.gradle\caches\transforms-3\23b67a7ebb2330ceaa75435511dbee1d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Acer\.gradle\caches\transforms-3\23b67a7ebb2330ceaa75435511dbee1d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+125        </service>
+126
+127        <activity
+127-->[:url_launcher_android] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+128            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+128-->[:url_launcher_android] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+129            android:exported="false"
+129-->[:url_launcher_android] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+130            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+130-->[:url_launcher_android] C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+131        <activity
+131-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+132            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+132-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+133            android:excludeFromRecents="true"
+133-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+134            android:exported="true"
+134-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+135            android:launchMode="singleTask"
+135-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+136-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+137            <intent-filter>
+137-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+138                <action android:name="android.intent.action.VIEW" />
+138-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+138-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+139
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+140-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+141                <category android:name="android.intent.category.BROWSABLE" />
+141-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+141-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+142
+143                <data
+143-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+144                    android:host="firebase.auth"
+144-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+145                    android:path="/"
+145-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+146                    android:scheme="genericidp" />
+146-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+147            </intent-filter>
+148        </activity>
+149        <activity
+149-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+150            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+150-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+151            android:excludeFromRecents="true"
+151-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+152            android:exported="true"
+152-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+153            android:launchMode="singleTask"
+153-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+154-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+155            <intent-filter>
+155-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+156                <action android:name="android.intent.action.VIEW" />
+156-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+156-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+157
+158                <category android:name="android.intent.category.DEFAULT" />
+158-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+158-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+159                <category android:name="android.intent.category.BROWSABLE" />
+159-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+159-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+160
+161                <data
+161-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+162                    android:host="firebase.auth"
+162-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+163                    android:path="/"
+163-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+164                    android:scheme="recaptcha" />
+164-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Acer\.gradle\caches\transforms-3\1f0a4eeb2c2bb5b59452d78eeebed6c5\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+165            </intent-filter>
+166        </activity>
+167
+168        <uses-library
+168-->[androidx.window:window:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\ed1519f126ae9cd548a34fe8bbc8aff5\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+169            android:name="androidx.window.extensions"
+169-->[androidx.window:window:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\ed1519f126ae9cd548a34fe8bbc8aff5\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+170            android:required="false" />
+170-->[androidx.window:window:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\ed1519f126ae9cd548a34fe8bbc8aff5\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+171        <uses-library
+171-->[androidx.window:window:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\ed1519f126ae9cd548a34fe8bbc8aff5\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+172            android:name="androidx.window.sidecar"
+172-->[androidx.window:window:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\ed1519f126ae9cd548a34fe8bbc8aff5\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+173            android:required="false" />
+173-->[androidx.window:window:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\ed1519f126ae9cd548a34fe8bbc8aff5\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+174
+175        <provider
+175-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Acer\.gradle\caches\transforms-3\23b67a7ebb2330ceaa75435511dbee1d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+176            android:name="com.google.firebase.provider.FirebaseInitProvider"
+176-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Acer\.gradle\caches\transforms-3\23b67a7ebb2330ceaa75435511dbee1d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+177            android:authorities="com.example.fall_watch_app.firebaseinitprovider"
+177-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Acer\.gradle\caches\transforms-3\23b67a7ebb2330ceaa75435511dbee1d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+178            android:directBootAware="true"
+178-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Acer\.gradle\caches\transforms-3\23b67a7ebb2330ceaa75435511dbee1d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+179            android:exported="false"
+179-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Acer\.gradle\caches\transforms-3\23b67a7ebb2330ceaa75435511dbee1d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+180            android:initOrder="100" />
+180-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Acer\.gradle\caches\transforms-3\23b67a7ebb2330ceaa75435511dbee1d\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+181
+182        <activity
+182-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Acer\.gradle\caches\transforms-3\e3cb2d49a1ec1aeaa5426060094e6f97\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+183            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+183-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Acer\.gradle\caches\transforms-3\e3cb2d49a1ec1aeaa5426060094e6f97\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+184            android:exported="false"
+184-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Acer\.gradle\caches\transforms-3\e3cb2d49a1ec1aeaa5426060094e6f97\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+185            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+185-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Acer\.gradle\caches\transforms-3\e3cb2d49a1ec1aeaa5426060094e6f97\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+186
+187        <meta-data
+187-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Acer\.gradle\caches\transforms-3\aeaba868aa4dd527856024332d82f01a\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+188            android:name="com.google.android.gms.version"
+188-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Acer\.gradle\caches\transforms-3\aeaba868aa4dd527856024332d82f01a\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+189            android:value="@integer/google_play_services_version" />
+189-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Acer\.gradle\caches\transforms-3\aeaba868aa4dd527856024332d82f01a\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+190    </application>
+191
+192</manifest>

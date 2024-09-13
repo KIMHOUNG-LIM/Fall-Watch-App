@@ -7,7 +7,28 @@ class FallDetectionService {
 
   final CollectionReference fallDetectionCollection =
       FirebaseFirestore.instance.collection('Fall Detections');
+  final CollectionReference cameraAccessCollection = 
+          FirebaseFirestore.instance.collection('Camera Access');
 
+  Future<List<String>> getCameraIdsByUserUid(String userUid) async {
+    List<String> cameraIds = [];
+
+    try {
+      // Query to find all documents with the specified userUid
+      QuerySnapshot querySnapshot = await cameraAccessCollection
+          .where('userUid', isEqualTo: userUid)
+          .get();
+      
+      // Loop through the query results and add camera IDs to the list
+      for (var doc in querySnapshot.docs) {
+        cameraIds.add(doc['cameraId']);
+      }
+    } catch (e) {
+      print('Error fetching camera IDs: $e');
+    }
+
+    return cameraIds;
+  }
   // Fetch fall detections by camera ID
   Future<List<Map<String, dynamic>>> getFallDetectionData(String cameraId) async {
     try {

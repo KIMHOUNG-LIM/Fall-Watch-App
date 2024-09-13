@@ -49,7 +49,7 @@ class AuthService {
   // Sign out
   Future<void> signOut() async {
     try {
-      return await _auth.signOut();
+      await _auth.signOut();
     } catch (e) {
       print(e.toString());
       return null;

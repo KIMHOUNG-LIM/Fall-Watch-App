@@ -1,10 +1,13 @@
-#Mon Aug 26 21:14:26 ICT 2024
+#Fri Sep 13 16:30:50 ICT 2024
 base.0=C\:\\Users\\Acer\\Downloads\\Internship2\\fall_watch_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-base.1=C\:\\Users\\Acer\\Downloads\\Internship2\\fall_watch_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
-base.2=C\:\\Users\\Acer\\Downloads\\Internship2\\fall_watch_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex
+base.1=C\:\\Users\\Acer\\Downloads\\Internship2\\fall_watch_app\\build\\app\\intermediates\\desugar_lib_dex\\debug\\classes1000.dex
+base.2=C\:\\Users\\Acer\\Downloads\\Internship2\\fall_watch_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+base.3=C\:\\Users\\Acer\\Downloads\\Internship2\\fall_watch_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex
 path.0=classes.dex
-path.1=classes2.dex
-path.2=classes3.dex
+path.1=classes1000.dex
+path.2=classes2.dex
+path.3=classes3.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex
+renamed.3=classes4.dex

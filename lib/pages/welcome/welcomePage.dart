@@ -1,62 +1,88 @@
-
-import 'package:fall_watch_app/pages/logIn/loginPage.dart';
-import 'package:fall_watch_app/pages/signUp/signUpPage.dart';
-import 'package:fall_watch_app/widgets/customButton.dart';
+// import 'package:fall_watch_app/widgets/customButton.dart';
+import 'package:fall_watch_app/pages/Login/loginPage.dart';
 import 'package:flutter/material.dart';
 
-
 class WelcomePage extends StatelessWidget {
-  
-  Widget buttonDesign1 (String text1, Color color, ButtonStyleType buttonStyleType, Color textColor, VoidCallback actionPress){
-    return Container(
-        height: 48,
-        constraints: const BoxConstraints(minWidth: 250),
-        child: CustomButton(actionPressed: actionPress, 
-        text: text1, 
-        styleType: buttonStyleType, 
-        textColor: textColor, 
-        backgroundColor: color,
-        ) ,
-      );
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 22),
+      backgroundColor: Colors.white,
+      body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // const SizedBox(height: 50,),
-            // SizedBox(width: 330, height: 250, child:Image.asset('images/welcome-board.png')),
+            // Logo Container (same as before)
             Container(
-                  width: 400,
-                  height: 400,
-                  decoration: BoxDecoration(color: Colors.orange[50]),
-                  child: Image.asset(
-                    'images/FallWatch.png',
-                    fit: BoxFit.cover,
+              width: 200,
+              height: 180,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: Colors.white,
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.orange.shade200.withOpacity(0.8),
+                    blurRadius: 10,
+                    spreadRadius: 1,
+                    offset: Offset(5, 6),
+                  ),
+                ],
+              ),
+              child: Center(
+                child: Text(
+                  'CAREVUE2.0',
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: Colors.grey.shade600,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
-            // const Center(child: Text('Hello', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40))),
-            const Center(
-              child:Text(
-                'Welcome to FallWatch!\nYour peace of mind, our priority.',
-                textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 15, color: Colors.black54),
-                overflow: TextOverflow.visible,
-              )),
-            const SizedBox(height: 30,),
-            buttonDesign1('LOG IN', Color.fromRGBO(230, 81, 0, 1), ButtonStyleType.primary, Colors.white, 
-            (){Navigator.push(context, MaterialPageRoute(builder: (context)=>LoginPage()));}),
-            const SizedBox(height: 15,),
-            // buttonDesign1('Sign Up', Color.fromRGBO(230, 81, 0, 1), ButtonStyleType.outline, Color.fromRGBO(230, 81, 0, 1),
-            // (){Navigator.push(context, MaterialPageRoute(builder: (context)=>SignUp()));}
-            // )
+              ),
+            ),
+            SizedBox(height: 150), // Spacing between logo and buttons
+            // Log In Button
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 100.0),
+              child: Container(
+                width: double.infinity,
+                height: 50,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(8),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.orange.shade100.withOpacity(0.8),
+                      blurRadius: 10,
+                      spreadRadius: 1,
+                      offset: Offset(5, 6),
+                    ),
+                  ],
+                ),
+                child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => LoginPage()));
+                  },
+                  style: ElevatedButton.styleFrom(
+                    elevation: 0,
+                    backgroundColor: Colors.white, // Button background color
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                  ),
+                  child: Text(
+                    'Log In',
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Colors.grey.shade600,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
+            ),
           ],
-        )
-        )
-      );
+        ),
+      ),
+    );
   }
 }

@@ -1,0 +1,12 @@
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-jetified-window-1.0.0-beta04-0 C:\Users\Acer\.gradle\caches\transforms-3\1748f72c181ff7b5ad40d278310a2fbb\transformed\jetified-window-1.0.0-beta04\res
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-jetified-annotation-experimental-1.1.0-1 C:\Users\Acer\.gradle\caches\transforms-3\2643c8c8aff33a4f919914e5c4d47fd2\transformed\jetified-annotation-experimental-1.1.0\res
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-jetified-window-java-1.0.0-beta04-2 C:\Users\Acer\.gradle\caches\transforms-3\7a77da85ab9580b85250487c855759a1\transformed\jetified-window-java-1.0.0-beta04\res
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-core-1.6.0-3 C:\Users\Acer\.gradle\caches\transforms-3\daec2a3dd36b4056418008ec1e204f87\transformed\core-1.6.0\res
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-main-4 C:\Users\Acer\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_phone_direct_caller-2.1.1\android\src\main\res
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-release-5 C:\Users\Acer\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_phone_direct_caller-2.1.1\android\src\release\res
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-pngs-6 C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\flutter_phone_direct_caller\generated\res\pngs\release
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-resValues-7 C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\flutter_phone_direct_caller\generated\res\resValues\release
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-rs-8 C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\flutter_phone_direct_caller\generated\res\rs\release
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-mergeReleaseResources-9 C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\flutter_phone_direct_caller\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-mergeReleaseResources-10 C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\flutter_phone_direct_caller\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-merged_res-11 C:\Users\Acer\Downloads\Internship2\fall_watch_app\build\flutter_phone_direct_caller\intermediates\merged_res\release
